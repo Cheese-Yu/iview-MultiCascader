@@ -15,6 +15,7 @@ import MultiCascader from './MultiCascader.vue(文件路径)';
 3. 使用
 ```
 <MultiCascader ref="addMulti" v-bind="config" @son="changeSon" hasValue :firstOpen="open" v-model="formChange.scope" @on-change="setChangeScope"></MultiCascader>
+
 export default {
   components: {
     MultiCascader
